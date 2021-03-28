@@ -4,3 +4,4 @@ Tool which contains many useful classes for collecting *Yu-gi-oh* card data, inc
 * **FileNameDownloader.java** takes in the card data from **YugiohDBParser.java** and uses it to generate a list of URLs which correspond to the card images available on Yugipedia. These URLs are outputted as .txt files in a folder.
 * **ImageDownloader.java** downloads the card images using the URLs from **FileNameDownloader.java**
 * **RarityParser.java** gets the rarity data from yugipedia, as it not easily obtainable using the official *Yu-gi-oh* database. Also requires manual .txt input
+* **PNGToJPG.java** converts any .png images obtained to the .jpg format
